@@ -44,7 +44,7 @@ describe('TaskManager', () => {
     });
 
     it('should filter tasks', () => {
-        manager.addTask('Buy milk');
+        manager.addTask('Buy milky milk');
         manager.addTask('Buy bread');
         manager.addTask('Write code');
         const filtered = manager.getTasks('buy');
