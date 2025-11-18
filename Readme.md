@@ -10,7 +10,7 @@ Application simple de gestion de tâches développée en TypeScript.
 1. Cloner le dépôt : `git clone <repository_url>`
 2. Naviguer dans le répertoire du projet : `cd project-directory`
 3. Installer les dépendances : `npm install`
-4. Compiler le projet : `tsc`
+4. Compiler le projet : `npx tsc`
 
 
 ## Fonctionnalités
@@ -22,5 +22,8 @@ Application simple de gestion de tâches développée en TypeScript.
 
 ## Utilisation
 1. Démarrer l'application : `node dist/index.js`
-2. Suivre les instructions à l'écran pour gérer vos tâches.
+2. 'node dist/index.js add <titre> [description]' pour ajouter une tâche
+3. 'node dist/index.js list [filtre]' pour lister les tâches
+4. 'node dist/index.js delete <id>' pour supprimer une tâche
+5. 'node dist/index.js modify <id> [titre] [description] [status]' pour modifier une tâche
 

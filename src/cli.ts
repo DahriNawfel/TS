@@ -17,7 +17,7 @@ class Cli {
                 break;
 
             case "list":
-                this.listTasks();
+                this.listTasks(args.slice(1));
                 break;
 
             case "delete":
@@ -55,8 +55,8 @@ class Cli {
         console.log(`Tâche ajoutée : "${title}"`);
     }
 
-    private listTasks(): void {
-        const tasks = this.taskManager.getTasks();
+    private listTasks(args: string[]): void {
+        const tasks = this.taskManager.getTasks(args[0]);
         if (tasks.length === 0) {
             console.log("Aucune tâche trouvée !");
             return;
@@ -87,7 +87,7 @@ class Cli {
 
 Commandes disponibles :
   add <titre> [description]   ➜ Ajouter une nouvelle tâche
-  list                        ➜ Lister toutes les tâches
+  list [filtre]                      ➜ Lister toutes les tâches
   delete <id>                 ➜ Supprimer une tâche
   modify <id> [titre] [description] [status] ➜ Modifier une tâche
 `);
