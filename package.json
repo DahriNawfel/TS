@@ -3,17 +3,24 @@
   "version": "1.0.0",
   "description": "taskmanager in TS with Cli",
   "main": "index.js",
+  "bin": {
+    "task-manager": "./dist/index.js"
+  },
   "scripts": {
+    "build": "npx tsc",
     "test": "vitest run"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["cli", "task", "manager", "todo"],
+  "author": "royalnaw",
+  "license": "MIT",
   "type": "module",
   "devDependencies": {
     "@types/node": "^24.10.1",
     "@vitest/coverage-v8": "^4.0.10",
     "typescript": "^5.9.3",
     "vitest": "^4.0.10"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
