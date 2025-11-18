@@ -1,7 +1,7 @@
 {
-  "name": "ts-jour01",
+  "name": "royalnaw-ts_project",
   "version": "1.0.0",
-  "description": "",
+  "description": "taskmanager in TS with Cli",
   "main": "index.js",
   "scripts": {
     "test": "vitest run"
