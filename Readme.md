@@ -22,8 +22,8 @@ Application simple de gestion de tâches développée en TypeScript.
 
 ## Utilisation
 1. Démarrer l'application : `node dist/index.js`
-2. 'node dist/index.js add <titre> [description]' pour ajouter une tâche
-3. 'node dist/index.js list [filtre]' pour lister les tâches
-4. 'node dist/index.js delete <id>' pour supprimer une tâche
-5. 'node dist/index.js modify <id> [titre] [description] [status]' pour modifier une tâche
+2. `node dist/index.js add <titre> [description]` pour ajouter une tâche
+3. `node dist/index.js list [filtre]` pour lister les tâches
+4. `node dist/index.js delete <id>` pour supprimer une tâche
+5. `node dist/index.js modify <id> [titre] [description] [status]` pour modifier une tâche
 
