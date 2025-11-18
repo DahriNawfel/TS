@@ -1,6 +1,6 @@
 {
   "name": "royalnaw-ts_project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "taskmanager in TS with Cli",
   "main": "index.js",
   "bin": {
@@ -10,7 +10,12 @@
     "build": "npx tsc",
     "test": "vitest run"
   },
-  "keywords": ["cli", "task", "manager", "todo"],
+  "keywords": [
+    "cli",
+    "task",
+    "manager",
+    "todo"
+  ],
   "author": "royalnaw",
   "license": "MIT",
   "type": "module",
