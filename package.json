@@ -1,6 +1,6 @@
 {
   "name": "royalnaw-ts_project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "taskmanager in TS with Cli",
   "main": "index.js",
   "bin": {
