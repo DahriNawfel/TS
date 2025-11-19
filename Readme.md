@@ -27,3 +27,8 @@ Application simple de gestion de tâches développée en TypeScript.
 4. `node dist/index.js delete <id>` pour supprimer une tâche
 5. `node dist/index.js modify <id> [titre] [description] [status]` pour modifier une tâche
 
+## utilisation via npm
+1. `npm install -g royalnaw-ts_project`
+2. `task-manager <parametre>`
+
+
